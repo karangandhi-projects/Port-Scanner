@@ -1,11 +1,11 @@
-🔍 Python Port Scanner
+# 🔍 Python Port Scanner
 
 A minimal command‑line port scanner written in pure Python. Give it one or more targets (IPv4 address or hostname), choose how many ports you want to probe, and the script will quickly report which ports are open and, when possible, grab the service banner.
 
 Why another port scanner?This project is intentionally small—under 100 lines—to be easy to read, tweak, and extend. It’s a great starting point if you’re learning network programming or need a lightweight scanner to embed in a bigger tool.
 
 
-✨ Features
+# ✨ Features
 
 Scan a single host or multiple hosts (comma‑separated) in one run
 
@@ -84,6 +84,11 @@ Because closed/filtered ports raise exceptions, they’re silently ignored to ke
 Python 3.7 or newer
 
 IPy (install via pip)
+
+
+👤 Original Author - Mohamed Ezzat - mohamedaezzat.guthub.io
+
+I would highly recommend checking out his GitHub. he has great hands-on projects to learn concepts. 
 
 
 
