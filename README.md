@@ -5,10 +5,6 @@
 
 A minimal command‑line port scanner written in **pure Python**. Give it one or more targets (IPv4 address or hostname), choose how many ports you want to probe, and the script will quickly report which ports are open and, when possible, grab the service banner.
 
-> **Why another port scanner?**  
-> This project is intentionally small—under 100 lines—to be easy to read, tweak, and extend. It’s a great starting point if you’re learning network programming or need a lightweight scanner to embed in a bigger tool.
-
----
 
 ## ✨ Features
 
@@ -18,7 +14,6 @@ A minimal command‑line port scanner written in **pure Python**. Give it one or
 - **Adjustable speed/accuracy** – change the socket timeout to trade accuracy for speed
 - Zero external dependencies beyond `IPy`
 
----
 
 ## 🚀 Quick Start
 
@@ -36,7 +31,6 @@ $ python port_scanner.py
 
 You’ll be prompted for the target(s) and the number of ports to scan.
 
----
 
 ## ⚙️ Usage Examples
 
@@ -61,8 +55,6 @@ If you need higher accuracy (at the cost of speed), increase the timeout:
 sock.settimeout(1)  # default is 0.5 seconds
 ```
 
----
-
 ## 🗂️ Project Structure
 
 ```
@@ -71,8 +63,6 @@ python-port-scanner/
 ├── requirements.txt     # IPy
 └── README.md            # you are here
 ```
-
----
 
 ## 🛠️ How It Works (High Level)
 
@@ -84,14 +74,12 @@ python-port-scanner/
 
 Because closed/filtered ports raise exceptions, they’re silently ignored to keep the output clean.
 
----
 
 ## 📋 Requirements
 
 - Python **3.7 or newer**
 - [`IPy`](https://pypi.org/project/IPy/) (install via `pip`)
 
----
 
 ## 👤 Author
 
