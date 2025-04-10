@@ -57,14 +57,14 @@ If you need higher accuracy (at the cost of speed), increase the timeout:
 sock.settimeout(1)  # default is 0.5 seconds
 
 
-🗂️ Project Structure
+# 🗂️ Project Structure
 
 python-port-scanner/
 ├── port_scanner.py      # main script (≈90 lines)
 └── README.md            # you are here
 
 
-🛠️ How It Works (High Level)
+# 🛠️ How It Works (High Level)
 
 Input parsing – Accept a single string of targets, split on commas, and normalise each to an IPv4 address with IPy/socket.gethostbyname().
 
@@ -79,21 +79,15 @@ Output – Print [+] Open port {port}: {banner} or simply [+] Open port {port} i
 Because closed/filtered ports raise exceptions, they’re silently ignored to keep the output clean.
 
 
-📋 Requirements
+# 📋 Requirements
 
 Python 3.7 or newer
 
 IPy (install via pip)
 
 
-👤 Original Author - Mohamed Ezzat - mohamedaezzat.guthub.io
+# 👤 Original Author - Mohamed Ezzat - mohamedaezzat.guthub.io
 
 I would highly recommend checking out his GitHub. he has great hands-on projects to learn concepts. 
 
 
-
-👤 Author
-
-Your Name – @karangandhi-projects
-
-Feel free to reach out if you have questions or suggestions!
