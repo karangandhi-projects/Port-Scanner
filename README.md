@@ -60,7 +60,6 @@ sock.settimeout(1)  # default is 0.5 seconds
 ```
 python-port-scanner/
 ├── port_scanner.py      # main script (≈90 lines)
-├── requirements.txt     # IPy
 └── README.md            # you are here
 ```
 
